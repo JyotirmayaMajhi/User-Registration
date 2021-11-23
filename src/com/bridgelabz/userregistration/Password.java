@@ -13,7 +13,7 @@ public class Password {
 
 	private static boolean isValidPassword(String password) {
 		
-		return password.matches("^[[A-Z]+a-zA-Z]{8,}$");
+		return password.matches("^[[A-Z]+[0-9]{1,}+a-zA-Z]{8,}$");
 	}
 
 }
