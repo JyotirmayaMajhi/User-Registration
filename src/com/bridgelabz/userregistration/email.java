@@ -14,7 +14,7 @@ public class email {
 
 	private static boolean isValidEmail(String email) {
 		
-		return email.matches("^([A-Za-z]{3,})[0-9a-zA-Z]+(@)+[a-z0-9]+(.)+[a-z]{2,}$");
+		return email.matches("^[0-9a-zA-Z+-._]+@[-+_.0-9a-zA-Z]*.[a-zA-Z]{2,3}.([a-zA-z]{2,3})*$");
 	}
 	
 	
